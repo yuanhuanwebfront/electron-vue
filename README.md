@@ -1,19 +1,10 @@
 # electron-vue
 
-## Project setup
-```
-npm install
-```
+## 1. 简介
+> 使用 `vue` 来构建  `electron` 应用
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 2. 安装
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+> 1. 先创建 `vue` 项目，使用 `vue-cli` ，命令： `vue create 项目名`
+> 2. 添加 `electron` 包，命令：`vue add electron-builder`
+> 3. 启动项目，命令： `npm run electron:serve`
